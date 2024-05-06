@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.header-master {
+  top: 0px;
+  outline: none;
+
+  width: 100%;
+  position: fixed;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  display: block;
+}
+
+.header-container {
+  display: table;
+  position: relative;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 1920px;
+}
+
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+} 
+.header-name {
+  display: table-cell;
+  text-align: left;
+  font-size: 2.3rem;
+  font-weight: 800;
+
+  line-height: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-master {
+  min-height: 686px;
+  margin-top: 138px;
+}
+
+.content-category {
+  display: block;
+  text-align: left;
+  padding-left: 80px;
+}
+.content-category li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+
+  font-size: 13px;
+}
+
+.image-master { 
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.image-master:hover {
+}
+.image-thumbnail {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.image-thumbnail:hover {
+  opacity: 0.5;
+}

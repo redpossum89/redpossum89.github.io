@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 import './App.css';
 import MainPage from './MainPage';
 import LoginPage from './LoginPage';
-import DetailPage from './DetailPag';
+import DetailPage from './DetailPage';
 
 function App() {
   console.log(process.env.PUBLIC_URL)

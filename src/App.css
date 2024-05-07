@@ -44,8 +44,8 @@
   width: 100%;
   position: fixed;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 
   display: block;
 }
@@ -62,7 +62,7 @@
 a {
   color: #2c2c2c;
   text-decoration: none;
-} 
+}
 .header-name {
   display: table-cell;
   text-align: left;
@@ -70,6 +70,14 @@ a {
   font-weight: 800;
 
   line-height: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-menu {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: table-cell;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -92,7 +100,7 @@ a {
   font-size: 13px;
 }
 
-.image-master { 
+.image-master {
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -105,4 +113,16 @@ a {
 
 .image-thumbnail:hover {
   opacity: 0.5;
+}
+
+.about-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+.about-content {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
 }
